@@ -6,7 +6,7 @@ Tiny proof-of-concept that shows how effortless it is to
 * serve two minimal front-ends as static files;
 * deploy the whole thing (for free!) on **Render**.
 
-> **Live demo → [https://fastapi-prod.onrender.com/](https://fastapi-prod.onrender.com/)**
+> **Live demo → [https://elysia-corrector.onrender.com/](https://elysia-corrector.onrender.com/)**
 > *(cold-start on the free plan may take a few seconds)*
 
 ---
