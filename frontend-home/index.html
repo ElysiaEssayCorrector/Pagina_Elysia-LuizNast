@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elysia - Corrija sua Redação com Inteligência Artificial</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo-container">
+      <img src="assets/Logo-light.svg" alt="Logo Elysia Claro" class="logo logo-light" loading="lazy" />
+      <img src="assets/Logo-dark.svg" alt="Logo Elysia Escuro" class="logo logo-dark" loading="lazy" />
+    </div>
+    <h1 class="fade-drop delay-1">Corrija sua Redação com Inteligência em Minutos</h1>
+    <p class="subtitulo fade-drop delay-2">Inteligência Artificial para elevar a qualidade da sua redação</p>
+  </header>
+
+  <!-- Seletor de Tema -->
+  <div id="theme-switcher" class="fade-drop delay-2">
+    <label class="switch">
+      <input type="checkbox" id="toggleTheme" />
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <section class="descricao fade-drop delay-3">
+      <p>Envie sua redação nos formatos <strong>.pdf, .txt</strong> ou <strong>.docx</strong> e receba uma avaliação completa feita pela nossa IA especializada.</p>
+    </section>
+
+    <!-- Formulário de Upload -->
+    <form id="uploadForm" class="fade-drop delay-4">
+      <input type="file" id="fileInput" name="file"/>
+      <div id="drop-area">
+        <div id="file-preview">
+          <img id="file-icon" src="assets/upload-icon.png" alt="Ícone de Arquivo">
+          <p id="file-text">Arraste e solte sua redação aqui<br><small>Formatos .pdf, .txt, .docx  Máx. 5MB</small></p>
+          <p id="file-name"></p>
+          <button id="remove-file" type="button" title="Remover">&times;</button>
+        </div>
+      </div>
+      <button type="submit" id="submitButton" class="fade-drop delay-5">
+        <span id="buttonText">Corrigir Agora</span>
+        <div class="spinner" id="spinner"></div>
+      </button>
+      <div id="feedback" class="feedback"></div>
+    </form>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Elysia. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+</body>
+</html>
