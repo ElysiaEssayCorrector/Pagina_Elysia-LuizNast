@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fastapi-prod
+    name: elysia-corrector
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
